@@ -2,7 +2,7 @@ import 'package:e_commerce_app_flutter/constants.dart';
 import 'package:e_commerce_app_flutter/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-
+//empty box
 class NothingToShowContainer extends StatelessWidget {
   final String iconPath;
   final String primaryMessage;
