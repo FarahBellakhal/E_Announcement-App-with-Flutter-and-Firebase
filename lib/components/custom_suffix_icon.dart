@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 import '../size_config.dart';
-
+// svg icon  size config
 class CustomSuffixIcon extends StatelessWidget {
   final String svgIcon;
   const CustomSuffixIcon({
