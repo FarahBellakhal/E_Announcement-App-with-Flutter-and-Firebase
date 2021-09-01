@@ -6,7 +6,7 @@ import 'package:logger/logger.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';
-
+//ajouter au panier
 class CartAnnonceCard extends StatelessWidget {
   final CartAnnonce cartAnnonce;
   const CartAnnonceCard({

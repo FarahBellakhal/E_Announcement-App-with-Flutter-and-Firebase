@@ -3,7 +3,8 @@ import 'package:e_commerce_app_flutter/models/Annonce.dart';
 import 'package:e_commerce_app_flutter/models/Review.dart';
 import 'package:e_commerce_app_flutter/services/authentification/authentification_service.dart';
 import 'package:enum_to_string/enum_to_string.dart';
-
+//annonce database 
+//contient les fonctions addreview , add user annonces , delete annonce ...
 class AnnonceDatabaseHelper {
   static const String ANNONCES_COLLECTION_NAME = "annonces";
   static const String REVIEWS_COLLECTOIN_NAME = "reviews";

@@ -3,7 +3,7 @@ import 'package:e_commerce_app_flutter/services/database/user_database_helper.da
 import 'package:flutter/material.dart';
 
 import '../../../size_config.dart';
-
+//checkout interface
 class CheckoutCard extends StatelessWidget {
   final VoidCallback onCheckoutPressed;
   const CheckoutCard({

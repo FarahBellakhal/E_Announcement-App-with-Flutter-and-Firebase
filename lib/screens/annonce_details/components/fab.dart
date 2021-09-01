@@ -6,7 +6,8 @@ import 'package:future_progress_dialog/future_progress_dialog.dart';
 import 'package:logger/logger.dart';
 
 import '../../../utils.dart';
-
+//verification email 
+//add to cart
 class AddToCartFAB extends StatelessWidget {
   const AddToCartFAB({
     Key key,

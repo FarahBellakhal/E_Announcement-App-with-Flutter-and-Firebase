@@ -2,7 +2,7 @@ import 'package:e_commerce_app_flutter/constants.dart';
 import 'package:e_commerce_app_flutter/screens/forgot_password/components/forgot_password_form.dart';
 import 'package:flutter/material.dart';
 import '../../../size_config.dart';
-
+// mot de passe oublié
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -1,7 +1,7 @@
 import 'package:e_commerce_app_flutter/models/Review.dart';
 import 'package:flutter/material.dart';
 import '../../../constants.dart';
-
+//review box
 class ReviewBox extends StatelessWidget {
   final Review review;
   const ReviewBox({

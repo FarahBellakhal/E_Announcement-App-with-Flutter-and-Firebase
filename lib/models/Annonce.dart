@@ -1,6 +1,6 @@
 import 'package:e_commerce_app_flutter/models/Model.dart';
 import 'package:enum_to_string/enum_to_string.dart';
-
+//enumeration de type dannonce
 enum AnnonceType {
   Engineering,
   Books,
@@ -37,7 +37,7 @@ class Annonce extends Model {
   String owner;
   AnnonceType annonceType;
   List<String> searchTags;
-
+// caractéristiques d'annonce 
   Annonce(
     String id, {
     this.images,
@@ -53,7 +53,7 @@ class Annonce extends Model {
     this.owner,
     this.searchTags,
   }) : super(id);
-
+//fonction qui calcule le pourcentage de remise
   int calculatePercentageDiscount() {
     int discount =
         (((originalPrice - discountPrice) * 100) / originalPrice).round();

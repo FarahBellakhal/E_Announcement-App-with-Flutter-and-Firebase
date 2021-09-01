@@ -43,7 +43,7 @@ class _BodyState extends State<Body> {
     super.dispose();
     categoryAnnoncesStream.dispose();
   }
-
+// body empty
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -111,7 +111,7 @@ class _BodyState extends State<Body> {
       ),
     );
   }
-
+//searched announcement
   Widget buildHeadBar() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -164,7 +164,7 @@ class _BodyState extends State<Body> {
       ],
     );
   }
-
+//refrech page
   Future<void> refreshPage() {
     categoryAnnoncesStream.reload();
     return Future<void>.value();
@@ -250,7 +250,8 @@ class _BodyState extends State<Body> {
       ),
     );
   }
-
+//image lié au catégorie d'annonce
+//engineering , books , jobs ...
   String bannerFromAnnonceType() {
     switch (widget.annonceType) {
       case AnnonceType.Engineering:

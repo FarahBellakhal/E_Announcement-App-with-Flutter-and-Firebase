@@ -3,7 +3,8 @@ import 'package:flutter_svg/svg.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';
-
+//annonce type box : dans le header (engineering , jobs ...)
+//quand on clique sur l'icon on va passer dans l'interface de chaque type ou bien catégorie
 class AnnonceTypeBox extends StatelessWidget {
   final String icon;
   final String title;

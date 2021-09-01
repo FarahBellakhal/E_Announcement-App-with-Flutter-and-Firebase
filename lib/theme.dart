@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
-
+// themes , font family , input decoration ,colors ,appbar name ...
 ThemeData theme() {
   return ThemeData(
     scaffoldBackgroundColor: Colors.white,

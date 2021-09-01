@@ -3,7 +3,7 @@ import 'package:e_commerce_app_flutter/models/Annonce.dart';
 import 'package:flutter/material.dart';
 
 import 'components/body.dart';
-
+//category annonce screen
 class CategoryAnnoncesScreen extends StatelessWidget {
   final AnnonceType annonceType;
 

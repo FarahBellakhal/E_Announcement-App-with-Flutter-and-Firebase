@@ -7,7 +7,7 @@ import 'package:swipedetector/swipedetector.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';
-
+//ajouter une image
 class AnnonceImages extends StatelessWidget {
   const AnnonceImages({
     Key key,

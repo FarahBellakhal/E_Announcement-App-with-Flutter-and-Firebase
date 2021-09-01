@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'components/body.dart';
-
+//serch screen 
 class SearchResultScreen extends StatelessWidget {
   final String searchQuery;
   final String searchIn;

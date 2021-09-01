@@ -11,7 +11,6 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: theme(),
         home: AuthentificationWrapper()
-        //home: AuthentificationWrapper(),
         );
   }
 }

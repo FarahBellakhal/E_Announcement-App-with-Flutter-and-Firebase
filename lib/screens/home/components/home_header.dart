@@ -3,10 +3,10 @@ import 'package:e_commerce_app_flutter/components/search_field.dart';
 import 'package:flutter/material.dart';
 
 import '../../../components/icon_button_with_counter.dart';
-
+//header home
 class HomeHeader extends StatelessWidget {
-  final Function onSearchSubmitted;
-  final Function onCartButtonPressed;
+  final Function onSearchSubmitted; //search icon pressed
+  final Function onCartButtonPressed; //panier pressed
   const HomeHeader({
     Key key,
     @required this.onSearchSubmitted,
@@ -25,14 +25,14 @@ class HomeHeader extends StatelessWidget {
             }),
         Expanded(
           child: SearchField(
-            onSubmit: onSearchSubmitted,
+            onSubmit: onSearchSubmitted, //rechercher l'annonce
           ),
         ),
         SizedBox(width: 5),
         IconButtonWithCounter(
           svgSrc: "assets/icons/Cart Icon.svg",
           numOfItems: 0,
-          press: onCartButtonPressed,
+          press: onCartButtonPressed, //aller vers le panier
         ),
       ],
     );

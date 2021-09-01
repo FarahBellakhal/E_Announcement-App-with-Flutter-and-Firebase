@@ -20,7 +20,7 @@ import 'annonces_section.dart';
 const String ICON_KEY = "icon";
 const String TITLE_KEY = "title";
 const String ANNONCE_TYPE_KEY = "annonce_type";
-
+// body qui englobe tout les sections
 class Body extends StatefulWidget {
   @override
   _BodyState createState() => _BodyState();

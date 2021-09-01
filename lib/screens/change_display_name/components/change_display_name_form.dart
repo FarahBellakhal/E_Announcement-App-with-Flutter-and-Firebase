@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:future_progress_dialog/future_progress_dialog.dart';
 
 import '../../../size_config.dart';
-
+//changer le nom 
 class ChangeDisplayNameForm extends StatefulWidget {
   const ChangeDisplayNameForm({
     Key key,

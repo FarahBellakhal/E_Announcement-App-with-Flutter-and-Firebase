@@ -14,7 +14,12 @@ import 'package:flutter/material.dart';
 import 'package:future_progress_dialog/future_progress_dialog.dart';
 import 'package:logger/logger.dart';
 import '../../change_display_name/change_display_name_screen.dart';
-
+//drawer qui contient les infos de l'utilisateur 
+//editer les infos 
+//manager les annonces
+//voir les ordres (mes ordres)
+//sign out
+// il ya toujours la verification par email
 class HomeScreenDrawer extends StatelessWidget {
   const HomeScreenDrawer({
     Key key,
@@ -44,42 +49,7 @@ class HomeScreenDrawer extends StatelessWidget {
                 }
               }),
           buildEditAccountExpansionTile(context),
-         /* ListTile(
-            leading: Icon(Icons.edit_location),
-            title: Text(
-              "Manage Addresses",
-              style: TextStyle(fontSize: 16, color: Colors.black),
-            ),
-            onTap: () async {
-              bool allowed = AuthentificationService().currentUserVerified;
-              if (!allowed) {
-                final reverify = await showConfirmationDialog(context,
-                    "You haven't verified your email address. This action is only allowed for verified users.",
-                    positiveResponse: "Resend verification email",
-                    negativeResponse: "Go back");
-                if (reverify) {
-                  final future = AuthentificationService()
-                      .sendVerificationEmailToCurrentUser();
-                  await showDialog(
-                    context: context,
-                    builder: (context) {
-                      return FutureProgressDialog(
-                        future,
-                        message: Text("Resending verification email"),
-                      );
-                    },
-                  );
-                }
-                return;
-              }
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                 // builder: (context) => ManageAddressesScreen(),
-                ),
-              );
-            },
-          ),*/
+         //my orders
           ListTile(
             leading: Icon(Icons.edit_location),
             title: Text(
@@ -88,7 +58,7 @@ class HomeScreenDrawer extends StatelessWidget {
             ),
             onTap: () async {
               bool allowed = AuthentificationService().currentUserVerified;
-              if (!allowed) {
+              if (!allowed) { //verification d'email
                 final reverify = await showConfirmationDialog(context,
                     "You haven't verified your email address. This action is only allowed for verified users.",
                     positiveResponse: "Resend verification email",
@@ -117,28 +87,14 @@ class HomeScreenDrawer extends StatelessWidget {
             },
           ),
           buildSellerExpansionTile(context),
-         /* ListTile(
-            leading: Icon(Icons.info),
-            title: Text(
-              "About Developer",
-              style: TextStyle(fontSize: 16, color: Colors.black),
-            ),
-            onTap: () async {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => AboutDeveloperScreen(),
-                ),
-              );
-            },
-          ),*/
+         //sign out 
           ListTile(
             leading: Icon(Icons.logout),
             title: Text(
               "Sign out",
               style: TextStyle(fontSize: 16, color: Colors.black),
             ),
-            onTap: () async {
+            onTap: () async { //est vous sur de deconnecter? yes or no 
               final confirmation =
                   await showConfirmationDialog(context, "Confirm Sign out ?");
               if (confirmation) AuthentificationService().signOut();
@@ -148,7 +104,7 @@ class HomeScreenDrawer extends StatelessWidget {
       ),
     );
   }
-
+  //les informations de l'utilisateur
   UserAccountsDrawerHeader buildUserAccountsHeader(User user) {
     return UserAccountsDrawerHeader(
       margin: EdgeInsets.zero,
@@ -192,7 +148,7 @@ class HomeScreenDrawer extends StatelessWidget {
       ),
     );
   }
-
+//editer infos
   ExpansionTile buildEditAccountExpansionTile(BuildContext context) {
     return ExpansionTile(
       leading: Icon(Icons.person),
@@ -284,7 +240,10 @@ class HomeScreenDrawer extends StatelessWidget {
       ],
     );
   }
-
+//manager announcements 
+//voir announcement 
+//add announcement
+//update announcement
   Widget buildSellerExpansionTile(BuildContext context) {
     return ExpansionTile(
       leading: Icon(Icons.business),

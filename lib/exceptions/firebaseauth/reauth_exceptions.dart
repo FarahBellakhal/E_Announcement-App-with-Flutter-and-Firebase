@@ -1,5 +1,5 @@
 import 'package:e_commerce_app_flutter/exceptions/firebaseauth/messeged_firebaseauth_exception.dart';
-
+//exeception pour l'authentification , email invalid , code invalide,userexistant,user n'existe pas, erreur de verification 
 class FirebaseReauthException extends MessagedFirebaseAuthException {
   FirebaseReauthException(
       {String message: "Instance of FirebaseReauthException"})

@@ -1,5 +1,5 @@
 import 'package:e_commerce_app_flutter/exceptions/firebaseauth/messeged_firebaseauth_exception.dart';
-
+//sign in exeception
 class FirebaseSignInAuthException extends MessagedFirebaseAuthException {
   FirebaseSignInAuthException(
       {String message: "Instance of FirebaseSignInAuthException"})

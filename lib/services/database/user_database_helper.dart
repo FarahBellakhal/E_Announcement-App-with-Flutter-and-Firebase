@@ -4,7 +4,12 @@ import 'package:e_commerce_app_flutter/models/CartAnnonce.dart';
 import 'package:e_commerce_app_flutter/models/OrderedAnnonce.dart';
 import 'package:e_commerce_app_flutter/services/authentification/authentification_service.dart';
 import 'package:e_commerce_app_flutter/services/database/annonce_database_helper.dart';
-
+// base de donnée pour l'utilisateur 
+//creer un user (sign up with email and password)
+//supprimer un user
+//favourite announcement (add / delete)
+//add to cart / delete 
+//add to myorders ...
 class UserDatabaseHelper {
   static const String USERS_COLLECTION_NAME = "users";
   static const String ADDRESSES_COLLECTION_NAME = "addresses";

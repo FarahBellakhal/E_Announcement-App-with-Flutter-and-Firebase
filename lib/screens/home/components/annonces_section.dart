@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 
 import '../../../size_config.dart';
-
+//la section qui contient les annonces
 class AnnoncesSection extends StatelessWidget {
   final String sectionTitle;
   final DataStream annoncesStreamController;

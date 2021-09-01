@@ -5,7 +5,9 @@ import 'package:e_commerce_app_flutter/exceptions/local_files_handling/local_fil
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-
+//choisir une image 
+//est ce que l'image conforme image picking exeception et local file hanfling exeception ou non 
+//permission handler
 Future<String> choseImageFromLocalFiles(
   BuildContext context, {
   int maxSizeInKB = 1024,

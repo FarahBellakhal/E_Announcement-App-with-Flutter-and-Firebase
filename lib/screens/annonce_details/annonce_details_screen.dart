@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 
 import 'components/body.dart';
 import 'components/fab.dart';
-
+//annonce details
 class AnnonceDetailsScreen extends StatelessWidget {
   final String annonceId;
 

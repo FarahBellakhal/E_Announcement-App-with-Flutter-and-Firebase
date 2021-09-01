@@ -50,7 +50,7 @@ class AnnonceActionsSection extends StatelessWidget {
     );
     return column;
   }
-
+ //ajouter à la liste de favoris (saved list) ,supprimer aprés avoir vérifier que l'email est validé
   Widget buildFavouriteButton() {
     return Consumer<AnnonceActions>(
       builder: (context, annonceDetails, child) {
