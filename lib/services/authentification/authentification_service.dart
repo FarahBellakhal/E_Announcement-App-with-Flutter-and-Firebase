@@ -8,7 +8,8 @@ import 'package:e_commerce_app_flutter/exceptions/firebaseauth/signup_exceptions
 import 'package:e_commerce_app_flutter/services/database/user_database_helper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
-
+//authentification services
+//verification email , user valid ...
 class AuthentificationService {
   static const String USER_NOT_FOUND_EXCEPTION_CODE = "user-not-found";
   static const String WRONG_PASSWORD_EXCEPTION_CODE = "wrong-password";
