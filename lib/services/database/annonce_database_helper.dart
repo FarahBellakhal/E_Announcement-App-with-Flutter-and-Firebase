@@ -230,7 +230,7 @@ class AnnonceDatabaseHelper {
   }
 
   String getPathForAnnonceImage(String id, int index) {
-    String path = "products/images/$id";
+    String path = "images/$id";
     return path + "_$index";
   }
 }
