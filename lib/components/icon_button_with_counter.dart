@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 import '../constants.dart';
 import '../size_config.dart';
-
+//icon button size config
 class IconButtonWithCounter extends StatelessWidget {
   final String svgSrc;
   final int numOfItems;
