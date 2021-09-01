@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../constants.dart';
 import '../size_config.dart';
-
+//search field 
 class SearchField extends StatelessWidget {
   final Function onSubmit;
   const SearchField({
