@@ -14,7 +14,10 @@ import 'package:e_commerce_app_flutter/size_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-
+//my orders interfaces 
+//dans lequel on trouve les annonces ordrés mis par le client (depuis le panier puisque l'interface de payement n'est pas terminé)
+// on peut editer / supprimer l'annonce par swipe (left ou right)
+// refrech page
 class Body extends StatefulWidget {
   @override
   _BodyState createState() => _BodyState();
