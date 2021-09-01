@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:logger/logger.dart';
 import '../constants.dart';
 import 'package:e_commerce_app_flutter/models/Annonce.dart';
-
+//annonce Card componenent
 class AnnonceCard extends StatelessWidget {
   final String annonceId;
   final GestureTapCallback press;
