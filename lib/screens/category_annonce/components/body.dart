@@ -4,7 +4,7 @@ import 'package:e_commerce_app_flutter/components/rounded_icon_button.dart';
 import 'package:e_commerce_app_flutter/components/search_field.dart';
 import 'package:e_commerce_app_flutter/constants.dart';
 import 'package:e_commerce_app_flutter/models/Annonce.dart';
-import 'package:e_commerce_app_flutter/screens/product_details/annonce_details_screen.dart';
+import 'package:e_commerce_app_flutter/screens/annonce_details/annonce_details_screen.dart';
 import 'package:e_commerce_app_flutter/screens/search_result/search_result_screen.dart';
 import 'package:e_commerce_app_flutter/services/data_streams/category_annonces_stream.dart';
 import 'package:e_commerce_app_flutter/services/database/annonce_database_helper.dart';

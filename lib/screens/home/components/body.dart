@@ -1,8 +1,8 @@
 import 'package:e_commerce_app_flutter/constants.dart';
 import 'package:e_commerce_app_flutter/models/Annonce.dart';
+import 'package:e_commerce_app_flutter/screens/annonce_details/annonce_details_screen.dart';
 import 'package:e_commerce_app_flutter/screens/cart/cart_screen.dart';
 import 'package:e_commerce_app_flutter/screens/category_annonce/category_annonce_screen.dart';
-import 'package:e_commerce_app_flutter/screens/product_details/annonce_details_screen.dart';
 import 'package:e_commerce_app_flutter/screens/search_result/search_result_screen.dart';
 import 'package:e_commerce_app_flutter/services/authentification/authentification_service.dart';
 import 'package:e_commerce_app_flutter/services/data_streams/all_annonces_stream.dart';

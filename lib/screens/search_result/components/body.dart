@@ -1,7 +1,7 @@
 import 'package:e_commerce_app_flutter/components/nothingtoshow_container.dart';
 import 'package:e_commerce_app_flutter/components/annonce_card.dart';
 import 'package:e_commerce_app_flutter/constants.dart';
-import 'package:e_commerce_app_flutter/screens/product_details/annonce_details_screen.dart';
+import 'package:e_commerce_app_flutter/screens/annonce_details/annonce_details_screen.dart';
 import 'package:e_commerce_app_flutter/size_config.dart';
 import 'package:flutter/material.dart';
 
