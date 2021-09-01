@@ -5,7 +5,7 @@ import 'package:logger/logger.dart';
 
 import '../constants.dart';
 import '../size_config.dart';
-
+//annonce short details component
 class AnnonceShortDetailCard extends StatelessWidget {
   final String annonceId;
   final VoidCallback onPressed;
