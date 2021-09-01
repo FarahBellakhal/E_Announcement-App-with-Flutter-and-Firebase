@@ -23,25 +23,42 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    #Firebase_packages
   cloud_firestore: ^0.14.4
   cupertino_icons: ^1.0.0
-  enum_to_string: ^1.0.14
   firebase_auth: ^0.18.4+1
   firebase_core: ^0.5.3
   firebase_storage: ^5.2.0
+  #icons_launcher
   flutter_launcher_icons: ^0.8.1
+  #enumeration_list
+  enum_to_string: ^1.0.14
+  #rating bar
   flutter_rating_bar: ^3.2.0+1
+  #svg
   flutter_svg: ^0.19.2+1
+  #search_tags
   flutter_tags: ^0.4.9+1
+  #Future
   future_progress_dialog: ^0.1.1
+  #image_picker
   image_picker: ^0.6.7+15
+  #internationalization and localization facilities_including message translation, plurals and genders, 
+  #date/number formatting and parsing, and bidirectional text.
   intl: ^0.16.1
+  #LogConsole.open(context)
   logger: ^0.9.4
+  #Permission_d_utilisation #allow #denied
   permission_handler: ^5.0.1+1
+  #image_zoom_updated
   pinch_zoom_image_updated: ^0.2.6
+  #provider
   provider: ^4.3.2+3
+  #validator.dart #isURL/isEmail/Equal(examples)
   string_validator: ^0.1.4
+  #detect up, down, left, right swipes
   swipedetector: ^1.2.0
+  #launcher-url
   url_launcher: ^5.7.10
 
 dev_dependencies:
