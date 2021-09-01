@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../constants.dart';
 import '../size_config.dart';
-
+//default button size config
 class DefaultButton extends StatelessWidget {
   final String text;
   final Function press;
