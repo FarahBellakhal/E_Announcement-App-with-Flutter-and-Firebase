@@ -2,7 +2,7 @@ Status <br>
           E-Announcement App <br>
 🎯 About <br>
 This is an eCommerce Application developed using FlutterFire (Flutter+Firebase). I have tried to collect all the basic features of any eCommerce App into this application. It uses Flutter Framework for App Frontend and Backend, and Firebase as server maintaining Databases and Storage requirements of the app. It uses Firebase Authentication, Firebase Cloud Firestore, Firebase Storage.
-✨ Features <br>
+<br>✨ Features <br>
 ✔️ User Authentication and related services
 ✔️ Add an Announcement
 ✔️ View Announcements added by other users
