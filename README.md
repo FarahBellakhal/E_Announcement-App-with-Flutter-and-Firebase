@@ -14,40 +14,7 @@ This is an eCommerce Application developed using FlutterFire (Flutter+Firebase).
 ✔️ Save Announcement
 
 🏁 Illustrations <br>
-Here are some Illustration of App Screens
- 
- 
-Home Screen                                           Home Screen Drawer
-                  
-Search Result                      Announcement detail screen 1 
-                     
-Announcement detail screen 2        Category screen 
-                  
-Your cart                                    Your orders
-                                                           
-
-
-My announcement screen           Add or edit an announcement
-                     
-
-
-
-   Review Dialog                               Sign in screen
-                           
-Sign up screen                Edit avatar screen 
-                         
-                                                         
-
-
-
-
-
-Change display name screen       Change password Screen
-                 
-
-
-
-Change Display phone number screen             Change  email screen
+https://docs.google.com/document/d/13r0fi3wqPf7PPJpr8MI7laY0BAXhX2HS_6Bk9b433cc/edit?usp=sharing
                               
 ✅ Installation<br>
 Download the Project E-announcement
