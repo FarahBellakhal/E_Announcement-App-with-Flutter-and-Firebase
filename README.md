@@ -1,8 +1,8 @@
-Status
+Status <br>
           E-Announcement App
-🎯 About
+🎯 About <br>
 This is an eCommerce Application developed using FlutterFire (Flutter+Firebase). I have tried to collect all the basic features of any eCommerce App into this application. It uses Flutter Framework for App Frontend and Backend, and Firebase as server maintaining Databases and Storage requirements of the app. It uses Firebase Authentication, Firebase Cloud Firestore, Firebase Storage.
-✨ Features
+✨ Features <br>
 ✔️ User Authentication and related services
 ✔️ Add an Announcement
 ✔️ View Announcements added by other users
@@ -13,7 +13,7 @@ This is an eCommerce Application developed using FlutterFire (Flutter+Firebase).
 ✔️ Review the Announcement you buy
 ✔️ Save Announcement
 
-🏁 Illustrations
+🏁 Illustrations <br>
 Here are some Illustration of App Screens
  
  
@@ -49,14 +49,14 @@ Change display name screen       Change password Screen
 
 Change Display phone number screen             Change  email screen
                               
-✅ Installation
+✅ Installation<br>
 Download the Project E-announcement
 Create an android application on your own account firebase 
 Download the file google-services.json and deplace it to Android >> app 
 Flutter run 
 NOTE: -Don’t forget to add your own announcements
          - you need email validation to manage your announcement and to edit your profile informations
-🚀 Resources
+🚀 Resources <br>
 https://flutter.dev/docs
 https://medium.com/flutter-community
 https://stackoverflow.com/questions/tagged/flutter
